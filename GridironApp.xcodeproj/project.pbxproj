@@ -14,6 +14,7 @@
 		606816961EAE6C460098A738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606816941EAE6C460098A738 /* LaunchScreen.storyboard */; };
 		606816A11EAE6C460098A738 /* GridironAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606816A01EAE6C460098A738 /* GridironAppTests.swift */; };
 		606816AC1EAE6C460098A738 /* GridironAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606816AB1EAE6C460098A738 /* GridironAppUITests.swift */; };
+		606816BA1EAE73C50098A738 /* GridironScoreTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606816B91EAE73C50098A738 /* GridironScoreTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		606816A71EAE6C460098A738 /* GridironAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridironAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606816AB1EAE6C460098A738 /* GridironAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridironAppUITests.swift; sourceTree = "<group>"; };
 		606816AD1EAE6C460098A738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606816B91EAE73C50098A738 /* GridironScoreTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridironScoreTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				6068168B1EAE6C450098A738 /* AppDelegate.swift */,
 				6068168D1EAE6C460098A738 /* ViewController.swift */,
 				6068168F1EAE6C460098A738 /* Main.storyboard */,
+				606816B91EAE73C50098A738 /* GridironScoreTypes.swift */,
 				606816921EAE6C460098A738 /* Assets.xcassets */,
 				606816941EAE6C460098A738 /* LaunchScreen.storyboard */,
 				606816971EAE6C460098A738 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6068168E1EAE6C460098A738 /* ViewController.swift in Sources */,
+				606816BA1EAE73C50098A738 /* GridironScoreTypes.swift in Sources */,
 				6068168C1EAE6C460098A738 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
